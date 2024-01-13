@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 4%;
+    padding: 20px 0 ;
+    height: 375px;
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -170px 0 0 -135px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qr-component{
+    display: flex;
+    justify-content: center;
+}
+.qr-image{ 
+    border-radius: 4%;
+    height: 230px;
+    width: 250px;
+}
+.text{
+    text-align: center;   
+    font-size: 15px;
+    padding: 10px;
+    margin: 0px 12px;
+}
+h3{
+    font-family: sans-serif;
+}
+p{
+    font-family: "Outfit",sans-serif;
+}
